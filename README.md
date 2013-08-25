@@ -1,37 +1,24 @@
-wolfcms-bootstrap-responsive Theme for WOLFCMS
-=====================
+wolfcms-bootstrap
+=================
 
-This ZIP contains the following directory and files:
+##### Bootstrap theme for WolfCMS
 
-- bootstrap/
-- bs_responsive_layout.txt = the HTML file for the "Layout"
-- install.txt
+### Installing the Theme
 
-
-INSTRUCTIONS:
-=============
 [Simpler than it looks! Upload CSS > Create Layout > Enable template. Done!]
 
-1. Unzip the archive. :) In your wolf/public/themes directory, create a "justmaybe" directory.
+1. Download/clone the project into your wolf/public/themes directory
 
-2. Upload the "screen.css" file the "public/themes/justmaybe" folder of your Wolf installation.
+2. Navigate to the 'Layouts' tab of the WolfCMS admin
+   * Click on 'New Layout'
+   * Name the layout and set the 'Content-type' to `text/html`
+   * Copy and paste the contents of the entire `bs_responsive_layout.php` into the 'Body' section of the layout creation page and click the 'Save' button
 
-3. Navigate to the LAYOUTS tab of the Wolf admin.
-   3.1 Click on "New Layout" (right side of the screen).
-   3.2 Fill in the boxes: "Name" = JustMaybe | "Content-type" = text/html
-   3.3 Return to the unzipped-archive; open the file "justmaybe_layout.txt" in a text editor; select ALL the contents, COPY to your clipboard.
-   3.4 Go back to the new JustMaybe layout in your Wolf admin; PASTE the contents of the justmaybe_layout.txt file into "Body".
-   3.5 Click the "Save" button at the bottom of the page.
+### Using the Theme
 
-4. To use this template with any page (including the "Home Page"):
-   4.1 Go to the PAGE tab in the Wolf admin, click on the page you wish to use the layout with, go to the bottom of the page and find the "Layout" drop-down selector.
-   4.2 Click on the "v" arrow to open the drop-down list, click on "JustMaybe".
-   4.3 Click on the "Save" button below it.
+To use the theme on a given page, do the following:
 
-
-NOTES
-=====
-
-You will want to edit the <title>...</title> and <h1>...</h1> areas in the layout to have your own website's name.
-
-Enjoy your new layout :) and modify to suit your tastes. Please respect the license (see the comments at the top of screen.css).
+1. Navigate to the 'Pages' tab in the Wolf admin and select the page you wish to apply the theme to
+2. Go to the 'Settings' tab on the 'Edit Page' for the selected page
+3. Select the layout we created during the installation steps above from the 'Page Type' dropdown menu and save the page
+4. View the updated page to see the theme in action and verify success of the install
