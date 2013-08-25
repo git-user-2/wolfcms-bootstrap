@@ -59,7 +59,7 @@
 <body>
 
   <!-- Main navbar -->
-  <div class="navbar navbar-fixed-top">
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-fluid">
         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -67,7 +67,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <small><a class="brand" href="<?php echo URL_PUBLIC; ?>">WolfCMS Bootstrap Responsive Theme</a></small>
+        <a class="brand" href="<?php echo URL_PUBLIC; ?>">WolfCMS Bootstrap Responsive Theme</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
             <?php
@@ -104,7 +104,7 @@
             <ul class="nav nav-list">
 
               <li class="nav-header">About This Site</li>
-              <li><p>Default 'about' info here, followed by a link to the full page.<a href="<?php echo BASE_URL; ?>about-us">  Read more...</a></p></li>
+              <li><p>Default 'about' info here, followed by a link to the full page.<br><a href="<?php echo BASE_URL; ?>about-us">Read more...</a></p></li>
               <li class="divider"></li>
 
               <li class="nav-header">Recent Entries</li>
