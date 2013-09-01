@@ -9,15 +9,15 @@
   <meta name="keywords" content="<?php echo ($this->keywords() != '') ? $this->keywords() : 'default, keywords, here'; ?>" />
   <meta name="author" content="Author Name" />
 
-  <!-- Bootstrap -->
-  <link href="/public/themes/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Bootstrap Default Theme -->
+  <!-- <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
-  <!-- jQuery -->
-  <script src="/public/themes/bootstrap/js/jquery.js"></script>
+  <!-- Bootswatch United Theme-->
+  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <script src="public/themes/bootstrap/js/html5shiv.js"></script>
+    <script src="public/themes/wolfcms-bootstrap/bootstrap/js/html5shiv.js"></script>
   <![endif]-->
 
   <!-- Fav and touch icons -->
@@ -49,7 +49,7 @@
   </style>
 
   <!-- Bootstrap Responsive -->
-  <link href="/public/themes/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Wolf Default RSS Feed" href="<?php echo URL_PUBLIC.((USE_MOD_REWRITE)?'':'/?'); ?>rss.xml" />
@@ -59,7 +59,7 @@
 <body>
 
   <!-- Main navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container-fluid">
         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -104,7 +104,7 @@
             <ul class="nav nav-list">
 
               <li class="nav-header">About This Site</li>
-              <li><p>Default 'about' info here, followed by a link to the full page.<br><a href="<?php echo BASE_URL; ?>about-us">Read more...</a></p></li>
+              <li><p>About info here.<br><a href="<?php echo BASE_URL; ?>about-us">Read more...</a></p></li>
               <li class="divider"></li>
 
               <li class="nav-header">Recent Entries</li>
@@ -147,19 +147,19 @@
 
   <!-- Le javascript -->
   <!-- Any unused scripts should be removed to prevent unnecessary loading -->
-  <script src="/public/themes/bootstrap/js/jquery.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-transition.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-alert.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-modal.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-dropdown.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-scrollspy.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-tab.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-tooltip.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-popover.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-button.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-collapse.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-carousel.js"></script>
-  <script src="/public/themes/bootstrap/js/bootstrap-typeahead.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/jquery.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-transition.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-alert.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-modal.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-dropdown.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-scrollspy.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-tab.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-tooltip.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-popover.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-button.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-collapse.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-carousel.js"></script>
+  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-typeahead.js"></script>
  
 </body>
 </html>
