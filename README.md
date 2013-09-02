@@ -21,13 +21,13 @@ To use the theme on a given page, do the following:
 3. Select the layout we created during the installation steps above from the 'Page Type' dropdown menu and save the page
 4. View the updated page to see the theme in action and verify success of the install
 
-### Miscellaneous
+### After Installation
 
-This release is based on Bootstrap 2.3.2, future releases with likely be based off of future Bootstrap releases in order to take advantage of improvements and new features.  Old releases will remain available here.
+Consult the Bootstrap 2.3.2 docs at http://getbootstrap.com/2.3.2/ in order to find out about the features made available by the framework.
 
 #### Using Bootswatch Themes
 
-Download themes for Bootsrap 2.x.x from http://bootswatch.com/2/, place the themed `bootstrap.min.css` file into a directory named after the theme (you can create one in the provided bootswatch folder), and comment out the default theme in your layout in favor of the new theme.  For example:
+Download themes for Bootsrap 2.3.2 from http://bootswatch.com/2/, place the themed `bootstrap.min.css` file into a directory named after the theme (you can create one in the provided bootswatch folder), and comment out the default theme in your layout in favor of the new theme.  For example:
 
 ```html
 <!-- Bootstrap Default Theme -->
@@ -54,4 +54,4 @@ http://opensource.org/licenses/MIT
 
 Copyright (C) 2013 Kyle Jones
 
-Any other licensed work included with this project is copyright its respective author(s).
+Any other licensed work included with this project is copyright its respective author(s), and subject to the terms of their chosen license.
