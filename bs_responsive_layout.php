@@ -10,10 +10,10 @@
   <meta name="author" content="Author Name" />
 
   <!-- Bootstrap Default Theme -->
-  <!-- <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <!-- Bootswatch United Theme-->
-  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
