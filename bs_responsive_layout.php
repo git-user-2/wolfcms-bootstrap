@@ -10,10 +10,10 @@
   <meta name="author" content="Author Name" />
 
   <!-- Bootstrap Default Theme -->
-  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <!-- Bootswatch United Theme-->
-  <!-- <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+  <!-- <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
   </style>
 
   <!-- Bootstrap Responsive -->
-  <link href="/public/themes/wolfcms-bootstrap/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Wolf Default RSS Feed" href="<?php echo URL_PUBLIC.((USE_MOD_REWRITE)?'':'/?'); ?>rss.xml" />
@@ -147,19 +147,19 @@
 
   <!-- Le javascript -->
   <!-- Any unused scripts should be removed to prevent unnecessary loading -->
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/jquery.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-transition.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-alert.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-modal.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-dropdown.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-scrollspy.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-tab.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-tooltip.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-popover.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-button.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-collapse.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-carousel.js"></script>
-  <script src="/public/themes/wolfcms-bootstrap/bootstrap/js/bootstrap-typeahead.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/jquery.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-transition.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-alert.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-modal.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-dropdown.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-scrollspy.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-tab.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-tooltip.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-popover.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-button.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-collapse.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-carousel.js"></script>
+  <script src="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/js/bootstrap-typeahead.js"></script>
  
 </body>
 </html>
