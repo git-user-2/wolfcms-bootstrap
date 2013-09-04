@@ -43,6 +43,10 @@ To prevent unnecessary inclusion of unused javascript files, delete/comment out 
 
 ### Change Log
 
+#### 0.0.2
+
+* Fixed issue with mobile scaling, missing necessary meta declaration
+
 #### 0.0.1
 
 * Initial release based on Bootstrap 2.3.2
