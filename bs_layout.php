@@ -13,8 +13,8 @@
   <!-- Bootstrap Default Theme -->
   <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-  <!-- Bootswatch United Theme-->
-  <!-- <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootswatch/united/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+  <!-- Bootswatch Flatly Theme-->
+  <!-- <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/bootstrap/css/bootswatch/flatly/bootstrap.min.css" rel="stylesheet" media="screen"> -->
 
   <!-- Custom styles -->
   <link href="<?php echo THEMES_URI; ?>wolfcms-bootstrap/custom_styles.css" rel="stylesheet" media="screen">

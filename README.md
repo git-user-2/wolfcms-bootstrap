@@ -39,6 +39,11 @@ Download themes for Bootsrap from http://bootswatch.com, place the themed `boots
 
 ### Change Log
 
+#### 0.0.3
+
+* Updated layout to Bootstrap v3.x.x
+* Included more Bootswatch themes (Flatly, United, Darkly, Simplex)
+
 #### 0.0.2
 
 * Fixed issue with mobile scaling, missing necessary meta declaration
